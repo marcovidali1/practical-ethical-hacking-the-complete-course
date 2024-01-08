@@ -130,3 +130,26 @@ def alcohol(age, money):
 print(alcohol(21, 5))
 print(alcohol(21, 4))
 print(alcohol(20, 4))
+
+nl()
+
+# list - have brackets []
+movies = ["Harry Potter and The Deathly Allows Part II",
+          "The Theory of Everything", "School of Rock", "The Super Mario Bros. Movie"]
+
+print(movies[1])  # return the second item
+print(movies[0])  # returns the first item in the list
+print(movies[1:4])
+print(movies[1:])
+print(movies[:1])
+print(movies[:2])
+print(movies[-1])
+
+print(len(movies))
+movies.append("JAWS")
+print(movies)
+
+movies.pop()
+print(movies)
+
+movies.pop(0)
