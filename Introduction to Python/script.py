@@ -84,3 +84,18 @@ bool3 = False
 bool4 = 3 * 3 != 9
 print(bool1, bool2, bool3, bool4)
 print(type(bool1))
+
+nl()
+
+# Relational and Boolean operators
+greather_than = 7 > 5
+less_than = 5 < 7
+greather_than_equal_to = 7 >= 7
+less_than_equal_to = 7 <= 7
+
+test_and = (7 > 5) and (5 < 7)  # true
+test_and2 = (7 > 5) and (5 > 7)  # false
+test_or = (7 > 5) or (5 < 7)  # true
+test_or2 = (7 > 5) or (5 > 7)  # true
+
+test_not = not True  # false
